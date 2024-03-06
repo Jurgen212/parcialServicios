@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+/Users/mac20/Documents/Jurgen/Universidad/semestre 6/Servicios/parcial1/parcial/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index

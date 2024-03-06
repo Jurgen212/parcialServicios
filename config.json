@@ -1,0 +1,8 @@
+{  
+   "basePackage":"co.com.sanclemente.microservice.resolveEnigmaApi",
+   "configPackage":"co.com.sanclemente.microservice.resolveEnigmaApi.config",
+   "apiPackage":"co.com.sanclemente.microservice.resolveEnigmaApi.api",
+   "modelPackage":"co.com.sanclemente.microservice.resolveEnigmaApi.model",
+   "groupId":"co.com.sanclemente.service.resolveEnigmaApi",
+   "artifactId":"resolve-enigma-api"
+}
