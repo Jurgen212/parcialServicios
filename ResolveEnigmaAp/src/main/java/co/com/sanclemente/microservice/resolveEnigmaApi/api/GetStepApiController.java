@@ -10,6 +10,7 @@ import io.swagger.annotations.ApiParam;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.validation.Valid;
@@ -54,9 +55,13 @@ public class GetStepApiController implements GetStepApi {
         return new ResponseEntity<>(responseList, HttpStatus.OK);
     }
 
- 
+    @GetMapping("/get")
+    public ResponseEntity<String> getEnigma() {
+        return new ResponseEntity<String>("Step1: Open the refrigerator", HttpStatus.OK);
+    }
+    
+    
     private String solveEnigma(String enigmaQuestion) {
         return "Step1: Open the regrigerator";
-        //-  Step2: Put the giraffe in - Step3: Close the door
     }
 }
